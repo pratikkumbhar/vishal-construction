@@ -11,7 +11,7 @@ import { LandingPageComponent } from '../landing-page/landing-page.component';
   styleUrl: './form.component.scss',
 })
 export class FormComponent {
-  @Input() background = ""
+  @Input() background = '';
   success: boolean = false;
 
   public sendEmail(e: Event) {
@@ -19,7 +19,7 @@ export class FormComponent {
 
     emailjs
       .sendForm(
-        'service_5y5dcc1',
+        'service_8xfpo1e',
         'template_ojmg5qo',
         e.target as HTMLFormElement,
         {
